@@ -1,0 +1,26 @@
+{
+  "name": "judgemetest",
+  "version": "1.0.0",
+  "description": "Judge.Me Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "judgeme": "npx cypress run",
+    "judgeme-headed": "npx cypress run --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/uncleejay/judge.me.git"
+  },
+  "author": "Joseph Cole-Showers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uncleejay/judge.me.git/issues"
+  },
+  "homepage": "https://github.com/uncleejay/judge.me.git#readme",
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "cypress": "^13.16.1",
+    "cypress-axe": "^1.5.0"
+  }
+}
